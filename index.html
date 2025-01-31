@@ -31,6 +31,7 @@
               colors: {
                 clifford: '#da373d',
                 'green-color': '#179800',
+                'secoundry': '#EFEBE3',
               }
             }
           }
@@ -39,11 +40,11 @@
 </head>
 <body class="sora-font">
     <!--header section  -->
-    <header class="header">
+    <header class="header mb-32">
         <!-- header container -->
-         <div class="w-full md:w-11/12 mx-auto">
+         <div class="w-full md:w-10/12 mx-auto">
             <!-- nav start -->
-            <nav class="px-5 lg:px-0 py-6">
+            <nav class="px-5 lg:px-0 py-6 mb-16">
                 <div class="grid grid-cols-2 lg:grid-cols-3 items-center">
                     <div class="navbar-start">
                       
@@ -56,12 +57,12 @@
                     </div>
                     
                     <div class="navbar-center hidden lg:block">
-                      <ul class="menu menu-horizontal px-1">
-                        <li><a>Product</a></li>
+                      <ul class="flex gap-x-5 justify-center">
+                        <li><a class="cursor-pointer">Product</a></li>
                         <li>
-                          <a>Services</a>
+                          <a class="cursor-pointer">Services</a>
                         </li>
-                        <li><a>Contact us</a></li>
+                        <li><a class="cursor-pointer">Contact us</a></li>
                       </ul>
                     </div>
                     <!-- btn -->
@@ -76,10 +77,47 @@
                     </div>
                   </div>
             </nav>
+            <!-- bannar section -->
+            <section class="px-5 lg:px-0">
+              <h1 class="text-center text-5xl font-bold leading-[1.2] mb-3">Freshness <span class="text-[#179800]"> You Can <br> Count</span> On, Prices You’ll Love!</h1>
+              <p class="text-center">here is what´s subconsciously asking actually offensive to me subconsciously <br> me for prices most of the time don´t just purchased.</p>
+              <img class="w-3/4 mx-auto" src="imges/hero-vegetables.png" alt="">
+             </section>
          </div>
     </header>
     <!-- main section -->
-     <main></main>
+     <main class="w-full md:w-10/12 mx-auto">
+        <!-- card section -->
+         <section class="w-11/12 mx-auto">
+          <h2 class="text-green-color font-bold text-3xl mb-5">Services</h2>
+
+          <!-- card container -->
+           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <!-- card 1 -->
+            <div class="bg-secoundry text-center p-8 space-y-3 rounded-2xl">
+              <img class="mx-auto" src="imges/service.png" alt="service">
+              <h2 class="text-2xl font-bold">24/7 Services</h2>
+              <p>latter can also refer to other things, such as public transport services which go between two stations without stopping.</p>
+            </div>
+             <!-- card 2 -->
+             <div class="bg-secoundry text-center p-8 space-y-3 rounded-2xl">
+              <img class="mx-auto" src="imges/delivery.png" alt="delivery">
+              <h2 class="text-2xl font-bold">Fast Delivery</h2>
+              <p>Their success on our stores is partly driven by ongoing investments in infrastructure and the adoption of innovative offerings, Easy Ship is the latest example</p>
+            </div>
+             <!-- card 3 -->
+             <div class="bg-secoundry text-center p-8 space-y-3 rounded-2xl">
+              <img class="mx-auto" src="imges/healthy.png" alt="healthy">
+              <h2 class="text-2xl font-bold">Healthy Products</h2>
+              <p>In today’s world, losing weight and staying fit is often believed to come with a hefty price tag. Gym memberships, healthy snacks, organic groceries,supplements.</p>
+            </div>
+            <!-- card 2 -->
+            <div></div>
+            <!-- card 3 -->
+            <div></div>
+           </div>
+         </section>
+     </main>
      <!-- footer -->
       <footer></footer>
 </body>
