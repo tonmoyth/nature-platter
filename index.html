@@ -43,11 +43,11 @@
 </head>
 <body class="sora-font">
     <!--header section  -->
-    <header class="header mb-32">
+    <header class="header mb-16">
         <!-- header container -->
-         <div class="w-full md:w-11/12 mx-auto">
+         <div>
             <!-- nav start -->
-            <nav class="px-5 lg:px-0 py-6 mb-16">
+            <nav class="px-5 lg:px-0 py-6 w-full md:w-11/12 mx-auto">
                 <div class="grid grid-cols-2 lg:grid-cols-3 items-center">
                     <div class="navbar-start">
                       
@@ -80,9 +80,11 @@
                     </div>
                   </div>
             </nav>
+            <!-- border -->
+            <div class="border-b-[1px] lg:border-none border-green-color mb-16"></div>
             <!-- bannar section -->
-            <section class="px-5 lg:px-0">
-              <h2 class="text-center text-5xl font-bold leading-[1.2] mb-3 animate-bounce">Freshness <span class="text-[#179800]"> You Can <br> Count</span> On, Prices You’ll Love!</h2>
+            <section class="px-5 lg:px-0 w-full md:w-11/12 mx-auto">
+              <h2 class="text-center text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.2] mb-3 animate-bounce">Freshness <span class="text-[#179800]"> You Can <br> Count</span> On, Prices You’ll Love!</h2>
               <p class="text-center">here is what´s subconsciously asking actually offensive to me subconsciously <br> me for prices most of the time don´t just purchased.</p>
               <img class="w-3/4 mx-auto" src="imges/hero-vegetables.png" alt="">
              </section>
@@ -90,6 +92,20 @@
     </header>
     <!-- main section -->
      <main>
+      <!-- why choose us -->
+      <section class="grid grid-cols-1 lg:grid-cols-2 w-11/12 mx-auto gap-x-10 mb-12">
+        <div>
+          <img class="rounded-lg w-full mb-5 lg:mb-0" src="imges/vegetable-busket.png" alt="">
+        </div>
+        <div class="space-y-5">
+          <h2 class="uppercase text-4xl font-bold">why choose us</h2>
+          <p>Vegetables are a good source of vitamins, minerals, and fiber, which can help maintain a healthy body phrase that businesses use to explain why customers should choose them over their competitors. Reasons to choose a business include its products</p>
+          <h3 class="uppercase mb-3 text-2xl font-bold text-green-color">100% Organic</h3>
+          <p> mixture of multi micronutrients for the plant's balanced growth and reduces the nutrients deficiency syndromes</p>
+          <h3 class="text-2xl font-bold uppercase text-green-color">Natural process</h3>
+          <p>are foods and drinks produced by methods complying with the standards foods and drinks produced by methods complying </p>
+        </div>
+      </section>
         <!-- card section -->
          <section class="w-11/12 mx-auto  md:w-11/12 mb-16">
           <h2 class="text-green-color font-bold text-3xl mb-5">Services</h2>
@@ -128,7 +144,7 @@
               <!-- card section -->
             <div class="lg:flex gap-5">
               <div class="liner-gradient h-[320px] w-full lg:w-1/3 rounded-lg space-y-3 relative z-1 mb-6 xl:mb-0 p-5">
-                <img class="w-1/2 absolute right-0 bottom-0" src="imges/vegetable-offer.png" alt="">
+                <img class="w-1/2 sm:h-[60%] absolute right-0 bottom-0" src="imges/vegetable-offer.png" alt="">
                 <h2 class="text-3xl font-bold text-white">30% off</h2>
                 <p>Discover a world of treats, toys,<br> and essentials handpicked for</p>
                 <button class="btn btn-primary bg-white border-none text-black hover:bg-green-color px-4">Buy Now</button>
@@ -209,13 +225,17 @@
                   </div>
                 </div>
 
-                <div class="flex bg-white px-2 md:py-2 rounded-lg w-auto h-[100px] items-center">
-                  <img class="bg-secoundry lg:w-3/3 rounded-lg mr-1 lg:mr-3" src="imges/Group 16.png" alt="">
-                  <div class="xl:space-y-3">
-                    <p><i class="fa-solid fa-star text-[#FFC107]"></i> 4.5</p>
-                    <h3 class="font-bold">Onion 1 KG</h3>
-                    <p>$39.99</p>
+                <div class="hidden lg:block">
+
+                  <div class="flex bg-white px-2 md:py-2 rounded-lg w-auto h-[100px] items-center">
+                    <img class="bg-secoundry lg:w-3/3 rounded-lg mr-1 lg:mr-3" src="imges/Group 16.png" alt="">
+                    <div class="xl:space-y-3">
+                      <p><i class="fa-solid fa-star text-[#FFC107]"></i> 4.5</p>
+                      <h3 class="font-bold">Onion 1 KG</h3>
+                      <p>$39.99</p>
+                    </div>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -271,7 +291,7 @@
               <div>
                 <img class="mx-auto" src="imges/vegetable-busket.png" alt="vegetable">
               </div>
-              <div class="space-y-5">
+              <div class="space-y-5 text-center lg:text-start">
                 <h1 class="text-3xl font-bold">Get Grocery News!</h1>
                 <p>Exclusive training tips, ticks, product deals and more.</p>
                 <input class="w-full px-3 py-3 rounded-lg" type="email" name="email" id="email" placeholder="Enter email...."> <br>
